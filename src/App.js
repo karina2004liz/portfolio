@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
+import Header from './components/Header';
+import Avatar from './components/Avatar'
 
 class App extends Component {
 
   render(){
   return (
+
     <div className="App">
       <header className="App-header">
+		<Header/>
+		</header>
 
-        <center>
-        <h1>My awesome Portfolio</h1>
-        </center>
-
-      <Particles
-    params={{
+		<Particles 
+		        canvasClassName="background"
+                params={{
 	    "particles": {
 	        "number": {
-	            "value": 100
+	            "value": 180
 	        },
 	        "size": {
-	            "value": 1
+	            "value": 2
 	        }
       },
       
@@ -28,14 +30,16 @@ class App extends Component {
 	        "events": {
 	            "onhover": {
 	                "enable": true,
-	                "mode": "grab"
+	                "mode": "repulse"
 	            }
 	        }
-	    }
-	}} />
+		}	
+	}} 
+	
+	/>
 
 
-      </header>
+
     </div>
   );
 
