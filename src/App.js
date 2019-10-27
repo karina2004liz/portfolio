@@ -10,11 +10,14 @@ class App extends Component {
   return (
 
     <div className="App">
-      <header className="App-header">
+
+		<div className="principal">
+		<header className="App-header">
 		<Header/>
 		</header>
 
-		<Particles 
+
+			<Particles 
 		        canvasClassName="background"
                 params={{
 	    "particles": {
@@ -39,6 +42,34 @@ class App extends Component {
 	/>
 
 
+
+		</div>
+     
+<div className="cubrir">
+
+	<div className="texto" >
+	<h1>Otro div con cosas</h1>
+	<p>
+	El​ texto argumentativo tiene como objetivo principal dar sustento a la tesis formulada por el autor mediante la exposición coherente y lógica de justificaciones o razones, que tienen como propósito el persuadir o convencer al lector sobre un punto de vista determinado.
+	Disculpa. Tenemos dificultades para recuperar tus páginas.
+
+Estamos teniendo problemas para restaurar tu navegación de la sesión anterior. Selecciona Restaurar Sesión para intentar de nuevo.
+
+¿Aún no puedes restaurar tu sesión? A veces una pestaña causa el problema. Revisa las pestañas anteriores, remueve la marca de las que no necesitas recuperar y luego restaura.
+	</p>	
+	
+
+	</div>
+
+	<div className="image">
+	<Avatar/>
+	</div>
+	
+	
+	
+</div>
+	
+		
 
     </div>
   );
