@@ -21,8 +21,6 @@ z-index: 1;
 .background{
 
 position: fixed;
-z-index: -2;
-
 }
 
 .principal{
@@ -46,8 +44,6 @@ z-index: -2;
   color: white;
   opacity: 0.9;
   padding:5%;
-  mix-blend-mode: normal;
-  isolation: isolate;
   
 }
 
@@ -60,4 +56,5 @@ z-index: -2;
 .image{
   float: right;
   width: 40%;
+  opacity:1;
 }
