@@ -1,5 +1,8 @@
 body{
+background-image: url('./fondo.gif');
+/*
 background-image: url("https://steamuserimages-a.akamaihd.net/ugc/928177176930796785/5CC3C09C52B8C5B45CD19CC1002BA346BA27BA3E/");
+*/
 font-family: 'Audiowide', cursive;
 background-size: cover;
 padding: 0;
