@@ -1,21 +1,25 @@
 .header{
  
-    color: white;
+    float:right;
+
 }
 
 .line{
 
     display: inline-block;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
 
 }
 
+
+
 .options:hover {
 
-opacity: 0.5;
+
 font-style:bold;
-color:black;
+color: white;
 
 }
 
@@ -23,4 +27,5 @@ a{
   
     text-decoration: none;    
     font-size: 1.2rem;
+    color: black;
 }

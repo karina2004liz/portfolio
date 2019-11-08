@@ -15,6 +15,7 @@ class Header extends Component{
                <div className= "line" >
                <a href="#contact"><h4 className="options" >Contact</h4></a>
                </div>
+
             </div>
     
 

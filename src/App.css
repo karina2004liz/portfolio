@@ -1,38 +1,16 @@
 body{
-/*
-background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/sunflowers-under-the-milky-way-dustin-goodspeed.jpg");
-*/
-/*
-background-image: url("https://osegredo.com.br/wp-content/uploads/2017/08/O-Universo-%C3%A9-maior-que-o-seu-umbigo-site-830x450.jpg");
-*/
-/*
-background-image: url("https://media1.giphy.com/media/Npi6g9U9XnKko/source.gif");
 
-background-image: url("https://media.giphy.com/media/ctvlMLfLGOEwM/giphy.gif");
+/*background-image: url("https://9to5mac.com/wp-content/uploads/sites/6/2017/07/leopard.jpg?quality=82&strip=all&w=1600");
 */
-
-/*
-background-image: url("http://box5360.temp.domains/~codycous/wp-content/uploads/2019/04/Other_creek1.gif");
-*/
-/*
-background-image: url("https://data.whicdn.com/images/326918263/original.gif");
-*/
-/*
-background-image: url("https://images7.alphacoders.com/738/738466.jpg");
-*/
-/*
-background-image: url("http://7desktopthemes.com/images/aurora-borealis-wallpaper-1080p-wallpaper-4.jpg");
-*/
-/*
-background-image: url("https://cdn.hipwallpaper.com/i/66/18/RkF0wn.jpg");
-*/
-background-image: url("https://9to5mac.com/wp-content/uploads/sites/6/2017/07/leopard.jpg?quality=82&strip=all&w=1600");
-
-font-family: 'Cormorant Garamond', serif;
+font-family: 'Audiowide', cursive;
 background-size: cover;
 padding: 0;
 background-repeat: no-repeat;
 background-attachment: fixed;
+
+background-image: url("https://steamuserimages-a.akamaihd.net/ugc/928177176930796785/5CC3C09C52B8C5B45CD19CC1002BA346BA27BA3E/");
+background-size: cover;
+background-position: center;
 }
 
 
@@ -41,8 +19,9 @@ header{
 position:fixed;
 z-index: 2;
 width: 100%;
-background-color:black;
 height: 60px;
+background-color:#0cbfe9;
+opacity: 0.8;
 
 
 }
@@ -89,7 +68,7 @@ position: fixed;
 }
 .image{
   float: right;
-  width: 40%;
+  width: 30%;
   position: relative;
   z-index: 2;
  

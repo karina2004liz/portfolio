@@ -14,7 +14,6 @@ class App extends Component {
 		<header className="App-header">
 		<Header/>
 		</header>
-		<audio src="audio.mp3" autoplay="true" loop="true"></audio>
 
 
 			<Particles 
@@ -22,10 +21,10 @@ class App extends Component {
                 params={{
 	    "particles": {
 	        "number": {
-	            "value": 220
+	            "value": 170
 	        },
 	        "size": {
-	            "value": 2
+	            "value": 1
 	        }
       },
       
@@ -34,7 +33,19 @@ class App extends Component {
 	            "onhover": {
 	                "enable": true,
 	                "mode": "repulse"
-	            }
+				},
+				"onclick":{
+					"enable":false,
+					"mode":"push"
+				},
+				"modes":{
+					"grab":{
+						"line_linked":{
+							"distance": 100
+						}
+					}
+				}
+				
 	        }
 		}	
 	}} 
@@ -43,9 +54,13 @@ class App extends Component {
 
 
 
+
 		</div>
      
 <div id="about" className="cubrir">
+
+
+	
 
 	<div className="texto" >
 	<h1>About Me</h1>
