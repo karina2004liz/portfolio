@@ -6,13 +6,21 @@
 .line{
 
     display: inline-block;
-    margin-left: 3rem;
-    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 
 }
 
 .options:hover {
 
 opacity: 0.5;
+font-style:bold;
+color:black;
+
 }
 
+a{
+  
+    text-decoration: none;    
+    font-size: 1.2rem;
+}

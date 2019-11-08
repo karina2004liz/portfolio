@@ -10,11 +10,11 @@ class App extends Component {
   return (
 
     <div className="App">
-
 		<div className="principal">
 		<header className="App-header">
 		<Header/>
 		</header>
+		<audio src="audio.mp3" autoplay="true" loop="true"></audio>
 
 
 			<Particles 
@@ -22,7 +22,7 @@ class App extends Component {
                 params={{
 	    "particles": {
 	        "number": {
-	            "value": 180
+	            "value": 220
 	        },
 	        "size": {
 	            "value": 2
@@ -45,18 +45,14 @@ class App extends Component {
 
 		</div>
      
-<div className="cubrir">
+<div id="about" className="cubrir">
 
 	<div className="texto" >
-	<h1>Otro div con cosas</h1>
-	<p>
-	El​ texto argumentativo tiene como objetivo principal dar sustento a la tesis formulada por el autor mediante la exposición coherente y lógica de justificaciones o razones, que tienen como propósito el persuadir o convencer al lector sobre un punto de vista determinado.
-	Disculpa. Tenemos dificultades para recuperar tus páginas.
-
-Estamos teniendo problemas para restaurar tu navegación de la sesión anterior. Selecciona Restaurar Sesión para intentar de nuevo.
-
-¿Aún no puedes restaurar tu sesión? A veces una pestaña causa el problema. Revisa las pestañas anteriores, remueve la marca de las que no necesitas recuperar y luego restaura.
-	</p>	
+	<h1>About Me</h1>
+	<h3>
+		
+I have always been interested in technology and in being able to create important changes with it, I am currently studying the degree in Computer Systems Engineering. I am outgoing, responsible, creative, efficient and effective, I like to learn from each objective that is presented. I am open to learn any type of programming language. Properly handle stress in any environment.
+		</h3>	
 	
 
 	</div>
@@ -68,10 +64,11 @@ Estamos teniendo problemas para restaurar tu navegación de la sesión anterior.
 	
 	
 </div>
-	
 		
 
     </div>
+
+
   );
 
 }
