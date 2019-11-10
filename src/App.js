@@ -9,11 +9,19 @@ import Content from './components/Content';
 const particlesOpt = {
 	"particles": {
 		"number": {
-			"value": 170
+			"value": 120,
+			"density":{
+				"enable": true,
+				"value_area":1000
+			}
 		},
 		"size": {
 			"value": 1
-		}
+		},
+		"line_linked": {
+			"enable": true,
+			"opacity": 0.30
+		},
   },
   
 	"interactivity": {
