@@ -42,7 +42,7 @@ position: fixed;
 .principal{
 
   width:100%;
-  height: 660px;
+  height: 680px;
   position: relative;
  
 }
@@ -83,5 +83,20 @@ position: fixed;
 
 h2{
   color:white;
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+
+}
+
+@media screen and (min-height:600px){
+
+  header{
+    opacity: .95;
+    
+    }
 
 }

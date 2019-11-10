@@ -13,7 +13,7 @@ class Header extends Component{
                <a href="#about"><h5 className="options" >About Me</h5></a>
                </div>
                <div className= "line" >
-               <a href="#proyects"><h5 className="options" >Proyects</h5></a>
+               <a href="#projects"><h5 className="options" >Projects</h5></a>
                </div>
                <div className= "line" >
                <a href="#skills"><h5 className="options" >Skills</h5></a>

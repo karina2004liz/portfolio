@@ -29,3 +29,21 @@ a{
     font-size: 1.2rem;
     color:#0cbfe9;
 }
+
+
+
+@media screen and (max-width: 670px) {
+
+
+    a{
+        font-size: 1rem;
+    }
+
+    .line{
+
+        padding-right: .5rem;
+        padding-left: .5rem;
+
+    }
+
+}

@@ -15,3 +15,21 @@
 h1,h3{
     color:#0784b5;
 }
+
+@media screen and (max-width: 680px) {
+
+    .txt{
+    
+        width:80%;
+        margin:5%;
+        padding:5%;
+        font-size:0.8rem;
+    }
+    .img{
+        width:80%;
+        margin:5%;
+        padding:5%;
+    }
+
+
+}

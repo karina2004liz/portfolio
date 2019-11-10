@@ -9,10 +9,10 @@ import Content from './components/Content';
 const particlesOpt = {
 	"particles": {
 		"number": {
-			"value": 120,
+			"value": 200,
 			"density":{
 				"enable": true,
-				"value_area":1000
+				"value_area":1400
 			}
 		},
 		"size": {
@@ -39,7 +39,11 @@ const particlesOpt = {
 					"line_linked":{
 						"distance": 100
 					}
-				}
+				},
+				"repulse": {
+					"distance": 180,
+					"duration": 0.3
+				  },
 			}
 			
 		}
