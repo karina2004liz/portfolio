@@ -19,6 +19,10 @@ var SKILLS = {
             "description":"Reactjs",
         },
         {
+            "img": "http://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png",
+            "description":"Nodejs",
+        },
+        {
             "img": "https://firebase.google.com/images/brand-guidelines/logo-standard.png",
             "description":"Firebase",
         },
@@ -42,6 +46,7 @@ var SKILLS = {
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png",
             "description":"Arduino",
         }
+
     ]
 }
 
