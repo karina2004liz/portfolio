@@ -1,19 +1,36 @@
+.about{
+    height:600px;
+}
+
 .txt{
     float:left;
-    width:30%;
+    width:40%;
     margin:3%;
     padding:5%;
     font-size:0.8rem;
+    text-align: justify;
 }
 .img{
     float:right;
-    width:30%;
+    width:25%;
     margin:3%;
     padding:5%;
 }
 
+#me{
+
+    width:100%;
+    border-radius: 4%;
+
+}
+
+
 h1,h3{
     color:#0784b5;
+}
+
+h2{
+    color:white;
 }
 
 @media screen and (max-width: 680px) {
@@ -27,9 +44,11 @@ h1,h3{
         text-align: justify;
     }
     .img{
-        width:70%;
+        width:82%;
         padding:5%;
     }
 
-
+    .about{
+        margin-bottom:60%;
+    }
 }

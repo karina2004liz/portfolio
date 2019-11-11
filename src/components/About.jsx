@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import './content.css';
+import './about.css';
+
 
 class Content extends Component{
-
-
-    
 
     render(){
 
@@ -12,7 +10,7 @@ class Content extends Component{
 
             <div className= "allInfo">
 
-            <div className="about">
+            <div className="about" id="about" >
                 <div className="txt">
                 <h1>About Me</h1>
 		<h3>I have always been interested in technology
@@ -27,12 +25,15 @@ class Content extends Component{
 		</h3>	
                 </div>
                 <div className="img">
-                    <img src='https://i.ibb.co/0B9V6NX/me.jpg'/>
+                    <img id="me" src='https://i.ibb.co/0B9V6NX/me.jpg'/>
                 </div>
             </div>
 
+            <br></br>
 
-            <div className= "proyects">
+
+
+            <div className= "skills">
 
             </div>
 

@@ -66,20 +66,6 @@ position: fixed;
 }
 
 
-.texto{
-  float: left;
-  width: 40%;
-  padding: 5%;
-
-
-}
-.image{
-  float: right;
-  width: 30%;
-  position: relative;
-  z-index: 2;
- 
-}
 
 h2{
   color:white;

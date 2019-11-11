@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
 import Header from './components/Header';
-import Avatar from './components/Avatar';
-import Content from './components/Content';
+import About from './components/About';
+import Projects from './components/Projects'
 
 
 const particlesOpt = {
@@ -12,7 +12,7 @@ const particlesOpt = {
 			"value": 200,
 			"density":{
 				"enable": true,
-				"value_area":1400
+				"value_area":1300
 			}
 		},
 		"size": {
@@ -69,9 +69,11 @@ class App extends Component {
 		</div>
 		
      
-<div id="about" className="cubrir">
+<div  className="cubrir">
 
-<Content/>
+<About className= "about"/>
+
+<Projects className="projects" />
 
 </div>
 		
