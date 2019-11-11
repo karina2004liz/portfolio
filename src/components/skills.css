@@ -1,0 +1,24 @@
+.skillsImg{
+    width: 130px;
+    margin: 5%;
+    padding:5%;
+}
+
+.skills{
+    width: 100%;
+}
+
+@media screen and (max-width: 680px){
+
+    .skillsImg{
+        width: 180px;
+        margin: 10%;
+        padding:10%;
+    }
+
+    .skills{
+       
+    }
+
+}
+

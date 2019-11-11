@@ -4,12 +4,13 @@ import Particles from 'react-particles-js';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 
 const particlesOpt = {
 	"particles": {
 		"number": {
-			"value": 200,
+			"value": 220,
 			"density":{
 				"enable": true,
 				"value_area":1300
@@ -20,7 +21,7 @@ const particlesOpt = {
 		},
 		"line_linked": {
 			"enable": true,
-			"opacity": 0.30
+			"opacity": 0.25
 		},
   },
   
@@ -74,6 +75,8 @@ class App extends Component {
 <About className= "about"/>
 
 <Projects className="projects" />
+
+<Skills/>
 
 </div>
 		
