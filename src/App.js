@@ -72,11 +72,9 @@ class App extends Component {
      
 <div  className="cubrir">
 
-<About className= "about"/>
-
-<Projects className="projects" />
-
-<Skills/>
+<About/>
+<Projects/>
+<Skills />
 
 </div>
 		

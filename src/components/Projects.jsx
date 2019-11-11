@@ -18,7 +18,6 @@ class Proyects extends Component{
 
             <div id="projects" className= "projects">
                 <br></br>
-                <br></br>
                 <center className="titleprojects">   
                 <h1>My personal projects</h1>
                 </center>

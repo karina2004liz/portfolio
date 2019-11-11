@@ -53,7 +53,8 @@ position: fixed;
   width: 80%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color:white;
+  
+  background-color: white;
   position: absolute;
   z-index: 1;
   color: black;
