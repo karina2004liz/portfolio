@@ -1,8 +1,5 @@
 body{
 background-image: url('./fondo.gif');
-/*
-background-image: url("https://steamuserimages-a.akamaihd.net/ugc/928177176930796785/5CC3C09C52B8C5B45CD19CC1002BA346BA27BA3E/");
-*/
 font-family: 'Audiowide', cursive;
 background-size: cover;
 padding: 0;
@@ -53,7 +50,8 @@ position: fixed;
   width: 80%;
   margin-left: 5%;
   margin-right: 5%;
-  
+  /*background-image:url("https://acdrserviweb.com/wp-content/uploads/2019/07/ciberseguridad.png");
+  background-size:auto;*/
   background-color: white;
   position: absolute;
   z-index: 1;
