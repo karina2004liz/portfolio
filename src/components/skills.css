@@ -7,6 +7,9 @@
 .skills{
     width: 100%;
     height: auto;
+    padding-top: 5%;
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fondo-azul-y-blanco-abstracto-png-3.png");
+    
 }
 
 @media screen and (max-width: 680px){

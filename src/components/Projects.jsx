@@ -17,7 +17,7 @@ class Proyects extends Component{
         return(
 
             <div id="projects" className= "projects">
-                <br></br>
+                
                 <center className="titleprojects">   
                 <h1>My personal projects</h1>
                 </center>
@@ -34,13 +34,13 @@ class Proyects extends Component{
                         <div className="dataInfo" >
                         <h2 id="title">{project.name}</h2>
                           <h4>{project.description}</h4> 
-                          <a href={project.github}> Github </a>
+                          <center>
+                          <a className="enlace" href={project.github}> Github </a>
                           <br/>
-                          <a href={project.linkpage}> Website </a>
-                            </div>    
-
-
-
+                          <a className="enlace" href={project.linkpage}> Website </a>
+                          </center>
+                            </div>
+                                
                     </div>
                     
                 )

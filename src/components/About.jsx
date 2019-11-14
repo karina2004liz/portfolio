@@ -29,16 +29,6 @@ class Content extends Component{
                 </div>
             </div>
 
-            <br></br>
-
-
-
-            <div className= "skills">
-
-            </div>
-
-            <div className= "Contact"></div>
-
             </div>
 
         )

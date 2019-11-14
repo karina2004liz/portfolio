@@ -3,7 +3,7 @@ var PROJECTS = {
         {
             "name": "Don't forget-app with Firebase",
             "img": "https://i.ibb.co/bPGSFhZ/Captura-de-pantalla-de-2019-09-18-20-15-08.png",
-            "description":"The WebApp allows you to Create, Delete and Update the notes, each note includes creation date and last edition date.",
+            "description":"The WebApp allows you to Create, Delete and Update the notes, each note includes creation date and last edition date. The photo you have stored in profile is displayed on the user (only Facebook and Gmail). The notes are stored in firebase and are updated in real time. ",
             "github":"https://github.com/karina2004liz/GDL003-lab-notes",
             "linkpage": "https://karina2004liz.github.io/GDL003-lab-notes/",
         },

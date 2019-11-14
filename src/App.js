@@ -4,7 +4,9 @@ import Particles from 'react-particles-js';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects'
-import Skills from './components/Skills'
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+
 
 
 const particlesOpt = {
@@ -72,9 +74,10 @@ class App extends Component {
      
 <div  className="cubrir">
 
-<About/>
-<Projects/>
-<Skills />
+<About className="about"/>
+<Projects className="projects"/>
+<Skills className="skills"/>
+<Contact className="contact" />
 
 </div>
 		

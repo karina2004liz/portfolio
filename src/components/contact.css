@@ -1,0 +1,21 @@
+.contact{
+    width: 80%;
+    height:auto;
+    padding: 10%;
+    margin-bottom: 10%;
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fondo-azul-y-blanco-abstracto-png-3.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 680px) {
+
+    h3{
+        font-size: .9rem ;
+    }
+
+    .contact{
+        height:520px;
+        margin-bottom: 2rem;
+    }
+ 
+}

@@ -1,5 +1,9 @@
 .about{
     height:600px;
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fondo-azul-y-blanco-abstracto-png-3.png");
+    background-size: cover;
+    padding-top: 5%;
+
 }
 
 .txt{
@@ -44,11 +48,15 @@ h2{
         text-align: justify;
     }
     .img{
-        width:82%;
-        padding:5%;
+        width:80%;
+        padding-left:5%;
+        padding-right:5%;
     }
 
     .about{
-        margin-bottom:60%;
+        height: 900px;
+        background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fondo-azul-y-blanco-abstracto-png-3.png");
+        background-size: initial;
+        
     }
 }
