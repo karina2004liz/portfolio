@@ -8,8 +8,8 @@
 
 .txt{
     float:left;
-    width:40%;
-    margin:3%;
+    width:35%;
+    margin:5%;
     padding:5%;
     font-size:0.8rem;
     text-align: justify;
@@ -17,21 +17,36 @@
 .img{
     float:right;
     width:25%;
-    margin:3%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding:5%;
+    transition: 0.9s;
+    transform-style: preserve-3d;
+   
+    
+
 }
+
+.img:hover{
+    transform: rotateY(180deg);
+}
+
+
 
 #me{
 
     width:100%;
-    border-radius: 4%;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 32px 23px rgba(0,0,0,0.75);
 
 }
 
 
-h1,h3{
+h3{
     color:#0784b5;
 }
+
+
 
 h2{
     color:white;

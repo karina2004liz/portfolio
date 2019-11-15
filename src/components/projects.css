@@ -16,13 +16,15 @@
     margin-right: 10%;
     height: 450px;
     margin-bottom:10%;
-    box-shadow: 0px 0px 90px 0px rgba(0,0,0,0.69);
+    box-shadow: 0px 0px 51px 23px rgba(0,0,0,0.75);
     border-radius: .9rem;
+    background: rgba(255, 255, 255, 0.2);
+    /*
     background-image: url("http://pharmautility.com/assets/images/19366-2000x1455.jpg");
 
     background-size: cover;
     
-
+*/
     
 }
 
