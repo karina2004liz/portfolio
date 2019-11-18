@@ -16,20 +16,16 @@
 }
 .img{
     float:right;
-    width:25%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding:5%;
-    transition: 0.9s;
-    transform-style: preserve-3d;
+    width:30%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    padding-right: 10%;
+
    
     
 
 }
 
-.img:hover{
-    transform: rotateY(180deg);
-}
 
 
 
@@ -66,12 +62,26 @@ h2{
         width:80%;
         padding-left:5%;
         padding-right:5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .about{
-        height: 900px;
+        height: 880px;
         background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fondo-azul-y-blanco-abstracto-png-3.png");
         background-size: initial;
         
     }
 }
+
+
+/*
+
+        <button onClick={this.playAudio}>
+          <span>Play Audio</span>
+        </button>
+        <audio className="audio-element">
+          <source src='senorita.mp3'></source>
+        </audio>
+
+        */

@@ -21,7 +21,7 @@ class Skills extends Component{
                 <br></br>
                 <br></br>
                 <center>   
-                <h1>My personal Skills</h1>
+                <h1>Tools</h1>
                 </center>
 
                 {this.state.data.map(skills =>{

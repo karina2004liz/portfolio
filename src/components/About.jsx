@@ -2,7 +2,15 @@ import React, { Component } from 'react';
 import './about.css';
 
 
+
+
+
 class Content extends Component{
+
+    playAudio() {
+        const audioEl = document.getElementsByClassName("audio-element")[0]
+        audioEl.play()
+      }
 
     render(){
 
@@ -23,9 +31,10 @@ class Content extends Component{
         I am open to learn any type of programming language. 
         Properly handle stress in any environment.
 		</h3>	
+
                 </div>
                 <div className="img">
-                    <img id="me" src='https://i.ibb.co/0B9V6NX/me.jpg'/>
+                    <img id="me" src='https://i.ibb.co/9sXjG47/me.jpg'/>
                 </div>
             </div>
 

@@ -16,7 +16,7 @@ class Header extends Component{
                <a href="#projects"><h5 className="options" >Projects</h5></a>
                </div>
                <div className= "line" >
-               <a href="#skills"><h5 className="options" >Skills</h5></a>
+               <a href="#skills"><h5 className="options" >Tools</h5></a>
                </div>
                <div className= "line" >
                <a href="#contact"><h5 className="options" >Contact</h5></a>
