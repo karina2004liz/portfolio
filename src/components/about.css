@@ -1,7 +1,14 @@
 .about{
     height:600px;
+
+    /*
     background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fondo-azul-y-blanco-abstracto-png-3.png");
     background-size: cover;
+    */
+
+    background-image: url('./aboutslow.gif');
+    background-size:cover;
+    opacity: 0.98;
     padding-top: 5%;
 
 }
@@ -13,6 +20,9 @@
     padding:5%;
     font-size:0.8rem;
     text-align: justify;
+    background-color: rgba(29, 32, 32, 0.9);
+    border-radius:5%;
+
 }
 .img{
     float:right;
@@ -27,7 +37,9 @@
 }
 
 
-
+#titleAbout{
+    color:white;
+}
 
 #me{
 
@@ -39,7 +51,7 @@
 
 
 h3{
-    color:#0784b5;
+    color:black;
 }
 
 
@@ -50,6 +62,10 @@ h2{
 
 @media screen and (max-width: 680px) {
 
+    .about{
+        background-size:auto;
+    }
+
     .txt{
     
         width:80%;
@@ -57,6 +73,8 @@ h2{
         padding:5%;
         font-size:0.8rem;
         text-align: justify;
+        background-color: rgba(20, 20, 20, 0.7);
+        
     }
     .img{
         width:80%;
@@ -68,8 +86,6 @@ h2{
 
     .about{
         height: 880px;
-        background-image: url("https://i.ibb.co/1JpV8FQ/CYMERA-20191117-201933.jpg");
-        
         
     }
 }

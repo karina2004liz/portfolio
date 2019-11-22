@@ -2,10 +2,16 @@
     width: 80%;
     height:auto;
     padding: 10%;
-    margin-bottom: 10%;
-    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fondo-azul-y-blanco-abstracto-png-3.png");
-    background-size: cover;
+    margin-bottom: 10%; 
+    background-image: url('./about.gif');
+     background-size: cover;
+     color:#0cbfe9;
 }
+
+h3{
+  color:#0cbfe9;
+}
+
 
 
 
@@ -18,7 +24,7 @@
     .contact{
         height:480px;
         padding-top: 15%;
-        background-image: url("https://i.ibb.co/1JpV8FQ/CYMERA-20191117-201933.jpg");
+       
     
     }
 

@@ -20,7 +20,7 @@ class Content extends Component{
 
             <div className="about" id="about" >
                 <div className="txt">
-                <h1>About Me</h1>
+                <h1 id="titleAbout">About Me</h1>
 		<h3>I have always been interested in technology
         and in being able to create important
         changes with it, I am currently studying the

@@ -45,6 +45,10 @@ var SKILLS = {
         {
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png",
             "description":"Arduino",
+        },
+        {
+            "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png",
+            "description":"Python",
         }
 
     ]
