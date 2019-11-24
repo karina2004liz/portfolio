@@ -15,7 +15,9 @@
     height: auto;
     padding-top: 5%;
  
-    background-color:#1D2020;
+    background-color:whitesmoke;
+    background-image: url("http://www.talencia.cat/mypics/max/8/88159_hexagon-transparent-background.png");
+    
 }
 
 @media screen and (max-width: 680px){
