@@ -6,7 +6,7 @@
     background-size: cover;
     */
 
-    background-image: url('./aboutslow.gif');
+    background-image: url('./about.gif');
     background-size:cover;
     opacity: 0.98;
     padding-top: 5%;
@@ -64,7 +64,7 @@ h2{
 
     .about{
         background-size:auto;
-        background-image: url('./aboutmovile.gif');
+      
     }
 
     .txt{
