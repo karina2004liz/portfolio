@@ -64,6 +64,7 @@ h2{
 
     .about{
         background-size:auto;
+        background-image: url('./aboutmovile.gif');
     }
 
     .txt{
@@ -74,6 +75,7 @@ h2{
         font-size:0.8rem;
         text-align: justify;
         background-color: rgba(20, 20, 20, 0.7);
+
         
     }
     .img{
