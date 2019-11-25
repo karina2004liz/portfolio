@@ -22,7 +22,7 @@ h4{
     margin-bottom:10%;
 
     border-radius: .9rem;
-    background: rgba(0, 0, 0, 0.7);    
+   
     transition-duration: .3s;
     /*
     background-image: url("http://pharmautility.com/assets/images/19366-2000x1455.jpg");
@@ -30,6 +30,8 @@ h4{
     background-size: cover;
     
 */
+
+background: rgba(255, 255, 255, 1);
 
 
     

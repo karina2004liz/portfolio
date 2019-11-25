@@ -2,6 +2,9 @@
     width: 10%;
     margin: 5%;
     padding:2%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10%;
+    
 }
 
 .skillsImg:hover{
