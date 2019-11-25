@@ -1,9 +1,9 @@
 .skillsImg{
-    width: 10%;
+    width: 50%;
     margin: 5%;
     padding:2%;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10%;
+    background-color: whitesmoke;
+    border-radius: 5%;
     
 }
 
@@ -23,15 +23,44 @@
     
 }
 
+.completeCard{
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 5%;
+    color:black;
+   
+}
+
+.textCard{
+    color:black;
+    font-size: 1.2rem;
+}
+
+.backCard{
+    background-color: whitesmoke;
+}
+
+
+
 @media screen and (max-width: 680px){
 
     .skillsImg{
-        width: 180px;
+        width: 110px;
         margin: 10%;
         padding:10%;
     }
 
 
 
+    .completeCard{
+        display: inline-block;
+        width: 100%;
+        
+    }
+
+    .textCard{
+        color:black;
+        font-size: 1rem;
+    }
 }
 
