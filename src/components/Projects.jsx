@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './projects.css';
 import PROYECTS from './data/project'
+import github from './githubwhite.png';
+import webpage from './webpagewhite.png';
 
 class Proyects extends Component{
 
@@ -32,13 +34,12 @@ class Proyects extends Component{
                           
 
                         <div className="dataInfo" >
-                        <h2 id="title">{project.name}</h2>
+                        <h2 id="title">{project.name}</h2>  
                           <h4>{project.description}</h4> 
-                          <center>
-                          <a className="enlace" href={project.github}> Github </a>
-                          <br/>
-                          <a className="enlace" href={project.linkpage}> Website </a>
-                          </center>
+ 
+                              <div className="enlacediv"><a className="enlace" href={project.github} target="_blank" ><img className="imagelink" src={github}/>Github</a></div>
+                              <div className="enlacediv"><a className="enlace" href={project.linkpage} target="_blank"><img className="imagelink" src={webpage}/>Webpage</a></div>
+
                             </div>
                                 
                     </div>

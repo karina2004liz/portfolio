@@ -61,6 +61,11 @@ var SKILLS = {
             "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png",
             "description":"Python",
             "level": "Developer Junior",
+        },
+        {
+            "img":"https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png",
+            "description":"PHP",
+            "level": "Developer Junior",
         }
 
     ]

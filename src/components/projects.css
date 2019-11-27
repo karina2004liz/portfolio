@@ -18,7 +18,7 @@ h4{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    height: 450px;
+    height: 500px;
     margin-bottom:10%;
 
     border-radius: .9rem;
@@ -30,11 +30,7 @@ h4{
     background-size: cover;
     
 */
-
-
-
-
-    
+   
 }
 
 .data:hover{
@@ -76,19 +72,43 @@ h4{
     color:#0784b5;
 }
 
-
-.enlace:hover{
-
+.enlace{
+    font-size:1.2rem;
     
-    font-size:1.5rem;
+}
+
+
+
+.enlacediv{
+    width: 40%;
+    height: auto;
+    border-radius: 5%;
+    float:left;
+    margin:2%;
+    
+    padding:3%;
+}
+
+.enlacediv:hover{
+
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 40px 0px rgba(71,184,184,1);
+}
+
+
+.imagelink{
+
+    width:25%;
+    margin-right:10%;
 
 }
+
 
 @media screen and (max-width: 680px) {
 
     .projects{
         padding-top: 20%;
-        height:2860px;
+        height:3050px;
         padding-bottom:0;
         
     }
@@ -121,7 +141,7 @@ h4{
     .data{
 
 
-        height: 650px;
+        height: 700px;
         padding:0%;
         box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.0);
         border-radius: 1rem;
@@ -134,7 +154,22 @@ h4{
 
 
     .enlace{
-    font-size:1.5rem;
+        font-size:1.4rem;
+        
+    }
+
+    .enlacediv{
+        width: 80%;
+        text-align: center;
+        
+
+    }
+
+    .imagelink{
+
+        width:12%;
+        margin-right:10%;
+    
     }
 
 }
